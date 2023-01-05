@@ -1,0 +1,158 @@
+<html lang="en">
+  <head>
+    <meta name="Author" content="Ruben Castillo Carrasco" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" media="screen and (min-width: 441px)" href="css_codes/style_form.css">
+      <link rel="stylesheet" media="screen and (max-width: 441px)" href="css_codes/style_form_telef.css">
+    <title>Evaluación</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="nav__botones">
+          <a href="main.html"><img src="imagenes/casa.png" height="50" /></a></div>
+        
+      </nav>
+    </header>
+    <main>
+      <div id="bloque_preg">
+        <h1>Evaluación</h1>
+        <ol>
+          <div class="bloque_preg__pregunta">
+            <li>
+              <div class="bloque_preg__pregunta__enunciado">
+                <label for="pregunta1"
+                  >Diferencias entre volcanes durmientes y extintos</label
+                >
+              </div>
+
+              <div class="bloque_preg__pregunta__respuesta">
+                <textarea>Introduce la respuesta...</textarea>
+              </div>
+            </li>
+          </div>
+          <div class="bloque_preg__pregunta">
+            <li>
+              <div class="bloque_preg__pregunta__enunciado">
+                ¿Las erupciones peleanas destacan por producir fuertes
+                explosiones?
+              </div>
+              <div class="bloque_preg__pregunta__respuesta">
+                <div class="bloque_preg__pregunta__respuesta-opcion">
+                <input
+                  type="radio"
+                  name="trueFalse1_1"
+                  value="Verdadero"
+                /><label for="trueFalse1_1">  Verdadero</label></div>
+              <div class="bloque_preg__pregunta__respuesta-opcion">
+                <input type="radio" name="trueFalse1_1" value="Falso" />
+                <label for="trueFalse1_2">Falso</label></div>
+              </div>
+            </li>
+          </div>
+          <div class="bloque_preg__pregunta">
+            <li>
+              <div class="bloque_preg__pregunta__enunciado">
+                <label for="pregunta3"
+                  >Indique el tipo de volcan de la imagen</label
+                >
+                <div class="bloque_preg__pregunta__enunciado-imagen">
+                  <img src="imagenes/volcan5.jpg" alt="Volcan" />
+                </div>
+              </div>
+              <div class="bloque_preg__pregunta__respuesta">
+                <select id="tipos" name="tipos">
+                  <option value="tipo1">Activo</option>
+                  <option value="tipo2">Extinto</option>
+                  <option value="tipo3">Durmiente</option>
+                </select>
+              </div>
+            </li>
+          </div>
+          <div class="bloque_preg__pregunta">
+            <li>
+              <div class="bloque_preg__pregunta__enunciado">
+                ¿La palabra lahar es de origen indonesio?
+              </div>
+              <div class="bloque_preg__pregunta__respuesta">
+                <div class="bloque_preg__pregunta__respuesta-opcion">
+                <input
+                  type="radio"
+                  name="trueFalse2_1"
+                  value="Verdadero"
+                /><label for="trueFalse2_1">  Verdadero</label></div>
+                <div class="bloque_preg__pregunta__respuesta-opcion">
+                <input type="radio" name="trueFalse2_1" value="Falso" />
+                <label for="trueFalse2_2">Falso</label></div>
+              </div>
+            </li>
+          </div>
+          <div class="bloque_preg__pregunta">
+            <li>
+              <div class="bloque_preg__pregunta__enunciado">
+                <label for="pregunta3"
+                  >Indique el tipo de erupcion de la imagen</label
+                >
+                <div class="bloque_preg__pregunta__enunciado-imagen">
+                  <img src="imagenes/volcan10.jpg" alt="Volcan" />
+                </div>
+              </div>
+              <div class="bloque_preg__pregunta__respuesta">
+                <select id="tipos" name="tipos">
+                  <option value="tipo1">Hawaiana</option>
+                  <option value="tipo2">Estromboliana</option>
+                  <option value="tipo3">Mixta</option>
+                </select>
+              </div>
+            </li>
+          </div>
+        </ol>
+      </div>
+      <div id="bloque_envio">
+        <div id="bloque_envio__campos">
+          <div id="bloque_envio__campos__text">
+            <p>
+              Rellene estos campos para enviar su examen para la corrección por
+              el profesor:
+            </p>
+          </div>
+          <div id="bloque_envio__campos__nombre">
+            Nombre:
+            <div id="bloque_envio__campos__nombre-campo">
+              <input
+                type="text"
+                name="name"
+                required
+                minlength="1"
+                maxlength="20"
+              />
+            </div>
+          </div>
+          <div id="bloque_envio__campos__clase">
+            Clase:
+            <div id="bloque_envio__campos__clase-campo">
+              <input
+                type="text"
+                name="name"
+                required
+                minlength="1"
+                maxlength="20"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="bloque_envio__botones">
+          <a href="main.html">
+          <div id="bloque_envio__botones__envio">
+            <input type="submit" value="Enviar" /></a>
+          </div>
+          <div id="bloque_envio__botones__volver">
+            <a href="main.html">
+              <input type="submit" value="Volver" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

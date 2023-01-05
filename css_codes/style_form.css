@@ -1,0 +1,191 @@
+/*Fuente para todo el documento */
+*{
+    font-family: "Open Sans", "Arial", sans-serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+   
+    
+}
+
+h1{
+    margin: 10px;
+    margin-left: 3.5%;
+    font-size: 30px;
+}
+div{
+  
+    margin: 1px;
+    padding: 1px;
+}
+
+
+/* Para la barra de navegacion */
+header{
+    width:100%;
+    border: 3px solid #607D8B;
+    background-color: #CFD8DC;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+header img{
+    background-color: white;
+    max-width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+
+}
+
+
+
+/*Para cada bloque de pregunta */
+.bloque_preg__pregunta{
+    margin: 8px;
+    border: 2px solid black;
+    background-color: #e6ecf0;
+}
+
+.bloque_preg__pregunta__enunciado{
+    padding: 7px;
+ 
+}
+
+
+
+
+/*Input de tipo texto(pregunta 1)*/
+.bloque_preg__pregunta__respuesta textarea{
+    padding: 10px;
+    width: 90%;
+    height: 15%;
+    font-size: 16px;
+    text-align:left;
+
+
+}
+/* respuestas tipo verdadero-falso*/
+.bloque_preg__pregunta__respuesta-opcion{
+   font-size: 18px;
+    margin-left: 5px;
+   
+}
+.bloque_preg__pregunta__respuesta-opcion label{
+
+    margin-left: 7px;
+    padding: 3px;
+    
+   
+}
+
+/*preguntas con imagen*/
+.bloque_preg__pregunta__enunciado-imagen{
+    margin-top: 5px;
+}
+.bloque_preg__pregunta__enunciado-imagen img{
+   border:2px solid black;
+   width: 40%;
+}
+
+.bloque_preg__pregunta__respuesta select{
+    padding: 10px;
+    width: 20%;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* Para el bloque de envio*/
+
+#bloque_envio{
+  background-color:#435d69 ;
+  color:white;
+  padding: 22px;
+ 
+
+}
+#bloque_envio__campos__text{
+    margin: 5px;
+}
+
+
+#bloque_envio__campos__nombre{
+    font-size: 16px;
+    margin: 10px;
+}
+#bloque_envio__campos__nombre input{
+    padding: 6px;
+    font-size: 15px;
+    width: 25%;
+    border: 2px solid black;
+}
+
+
+#bloque_envio__campos__clase{
+    font-size: 16px;
+    margin: 10px;
+}
+
+#bloque_envio__campos__clase input{
+    padding: 6px;
+    font-size: 15px;
+    width: 25%;
+    border: 2px solid black;
+}
+
+
+/*botones de envio*/
+#bloque_envio__botones{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+#bloque_envio__botones__envio{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+#bloque_envio__botones__envio input{
+    border: 3px solid white;
+    color: white;
+    background-color: #fc4949;
+   width: 100%;
+    padding: 5%;
+    border-radius: 12px;
+    font-size: 20px;
+
+}
+#bloque_envio__botones__envio input:hover{
+    background-color: red;
+}
+
+
+#bloque_envio__botones__volver{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+#bloque_envio__botones__volver input{
+    border: 3px solid white;
+    color: white;
+    background-color: #fc4949;
+   width: 100%;
+    padding: 5%;
+    border-radius: 12px;
+    font-size: 20px;
+
+}
+#bloque_envio__botones__volver input:hover{
+    background-color: red;
+}
+
+
+
+
